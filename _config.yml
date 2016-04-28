@@ -1,11 +1,14 @@
+# Gems
+gems: [jekyll-paginate]
+
 # --- General options --- #
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://username.github.io"
-baseurl: ""
+url: "http://codelabs.thegrommet.com"
+baseurl: "codelabs.thegrommet.com"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -14,10 +17,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: The Grommet Code Labs
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: "Discover What's Next"
 
 # --- Navigation bar options --- #
 
