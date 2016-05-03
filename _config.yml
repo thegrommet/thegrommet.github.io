@@ -65,7 +65,7 @@ url-pretty: "Bits @ The Grommet"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Misc --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "thegrommet"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-5974660-13"
