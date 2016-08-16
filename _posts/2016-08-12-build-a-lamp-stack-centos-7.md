@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Build a LAMP (Linux, Apache, MySQL, PHP) Stack on CentOS 7
+title: How to build a LAMP (Linux, Apache, MySQL, PHP) Stack on CentOS 7
 ---
 
 <strong>Step by step instructions on how to install a LAMP stack on CentOS 7 on AWS</strong>
 
-This tutorial walks through the basics of setting up a standard LAMP stack on AWS. To note, this tutorial will not actually be using MySQL, but rather MariaDB as a drop-in replacement.
+This tutorial walks through the basics of setting up a standard LAMP stack on AWS. Running Linux, Apache, MySQL and PHP (LAMP) is one of the most popular configurations for dynamic web applications, utlitizing a powerful bundle of open source software.  By following the instructions in this guide, it should take about 15 minutes to have the LAMP server up and running.
 
 Begin by creating an AWS EC2 t2.medium instance (or whatever size you wish) - it can always be resized before going into production usage.  Our preference in Linux flavor is CentOS 7, available through the AWS Marketplace, but these commands should work for any RPM-based system (RHEL, CentOS, Fedora).
 
@@ -43,7 +43,7 @@ systemctl enable httpd
 systemctl start httpd
 {% endhighlight %}
 
-Now its database install time!  Our preference is <a href="https://mariadb.org/about/" target="_blank">MariaDB</a>, which is a drop-in replacement for MySQL.  
+Now its database install time!  Our preference is <a href="https://mariadb.org/about/" target="_blank">MariaDB</a>, which is a drop-in replacement for MySQL.  MariaDB is an open-source fork from MySQL 5.5, created by the original developers of MySQL in the wake of the acquisition by Oracle in 2009.  The high compatibility and exact matching of MySQL APIs and commands allows us to MariaDB seemlessly.
 
 In order to get the most recent version of MariaDB, the repo needs to be installed manually.  To do so, go to MariaDB's <a href="https://downloads.mariadb.org/mariadb/repositories/" target="_blank">repo page</a> and navigate to your system.  In this case, it is located under CentOS > CentOS 7 > 10.1 [Stable]
 {% highlight shell %}
@@ -73,7 +73,7 @@ systemctl enable mariadb
 # Start MariaDB
 systemctl start mariadb
 
-# Improve MySQL installation security
+# Improve MariaDB installation security
 mysql_secure_installation
 
 # This is only necessary if an older major version of MariaDB or MySQL already existed on the server
@@ -89,7 +89,7 @@ vi /etc/yum.repos.d/remi.repo
 # Enable the PHP 7 repo (change `enabled=0` to `enabled=1`)
 vi /etc/yum.repos.d/remi-php70.repo
 
-# Install PHP and the PHP MySQL extension
+# Install PHP and the PHP MariaDB/MySQL extension
 yum install php php-mysql
 
 # Restart Apache
