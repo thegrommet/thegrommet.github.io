@@ -28,10 +28,10 @@ description: "Discover What's Next"
 navbar-links:
   About Us: "aboutus"
   Resources:
-    - Retail: "https://www.thegrommet.com/"
-    - Wholesale: "https://wholesale.thegrommet.com/"
-    - Engineering: "http://bits.thegrommet.com/"
-  Careers: "http://careers.thegrommet.com"
+    - Retail: "https://www.thegrommet.com"
+    - Wholesale: "https://wholesale.thegrommet.com"
+    - Engineering: "http://bits.thegrommet.com"
+  Careers: "https://www.thegrommet.com/careers"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
