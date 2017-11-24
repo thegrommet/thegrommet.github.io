@@ -3,7 +3,7 @@ layout: post
 title: "Estimates: A New Point System"
 ---
 
-At The Grommet, we use a process derived from Scrum to manage expectations and requests from outside the engineering, operations and design teams. There's a lot of ceremony that isn't too relevant to this post, but one of the practices is estimating the size of tasks as we're planning an iteration of our work (we use two week sprints at the moment)
+At The Grommet, we use a process derived from Scrum to manage expectations and requests from outside the engineering, operations and design teams. There's a bit of ceremony that isn't too relevant to this post, but one of the practices is estimating the size of tasks as we're planning an iteration of our work (we use two week sprints at the moment). For context, we have seven developers, two product managers, a project manager / Scrum Master, and a company of 80 people in total, supporting an e-commerce site that launches as many as a dozen new products, often entirely new to market each week, including complete media production for then.
 
 We've used several common methods to do these estimates. 
 
