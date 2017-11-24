@@ -20,9 +20,9 @@ In all cases, we found that estimates were consistently off the mark. Among the 
 - We estimated bug tickets similarly, but found that we were further off the mark for them.
 - We often still correlated point sizes to hours, without evaluating the meta-work of chasing down stakeholders, confirming requests, and iterating through requested changes.
 
-Since I joined the team, I'd been advocating for time to do a verbal "sketch implementation" of each task, talking through what we'd change about each part of our system to achieve the goal, and come up with a rough plan before beginning, and to spend time investigating what would be required before estimating any task that we couldn't do that with.  While there was no resistance to this, there was no formal process for doing so and we routinely skipped this during planning meetings, where everyone was on the linbe.
+One of our engineers has been advocating for time to do a verbal "sketch implementation" of each task, talking through what we'd change about each part of our system to achieve the goal, and come up with a rough plan before beginning, and to spend time investigating what would be required before estimating any task that we couldn't do that with.  While there was no resistance to this, there was no formal process for doing so and we routinely skipped this during planning meetings, where everyone was on the linbe.
 
-At another company I'd worked with, we used a simplified system, fully admitting that task descriptions often have no strict relationship to hours worked. We estimated on a three point scale:
+Another company one of our engineers worked at uses a simplified system, fully admitting that task descriptions often have no strict relationship to hours worked. We estimated on a three point scale:
 
 - 1 point if the task can be completely verbalized in detail, how it will be performed known exactly
 - 2 points if the task can be verbalized grossly, noting which systems will be involved and roughtly what each will have to accommodate
