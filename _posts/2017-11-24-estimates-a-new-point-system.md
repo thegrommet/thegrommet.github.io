@@ -3,7 +3,7 @@ layout: post
 title: "Estimates: A New Point System"
 ---
 
-At The Grommet, we use a process derived from Scrum to manage expectations and requests from outside the engineering, operations and design teams. There's a bit of ceremony that isn't too relevant to this post, but one of the practices is estimating the size of tasks as we're planning an iteration of our work (we use two week sprints at the moment). For context, we have seven developers, two product managers, a project manager / Scrum Master, and a company of 80 people in total, supporting an e-commerce site that launches as many as a dozen new products, often entirely new to market each week, including complete media production for then.
+At The Grommet, we use a process derived from Scrum to manage expectations and requests from outside the engineering, operations and design teams. There's a bit of ceremony that isn't too relevant to this post, but one of the practices is estimating the size of tasks as we're planning an iteration of our work (we use two week sprints at the moment). For context, we have seven developers, two product managers, a project manager / Scrum Master, and a company of 80 people in total, supporting an e-commerce site that launches as many as a dozen new products, often entirely new to market each week, including complete media production for them.
 
 We've used several common methods to do these estimates. 
 
@@ -20,15 +20,15 @@ In all cases, we found that estimates were consistently off the mark. Among the 
 - We estimated bug tickets similarly, but found that we were further off the mark for them.
 - We often still correlated point sizes to hours, without evaluating the meta-work of chasing down stakeholders, confirming requests, and iterating through requested changes.
 
-One of our engineers has been advocating for time to do a verbal "sketch implementation" of each task, talking through what we'd change about each part of our system to achieve the goal, and come up with a rough plan before beginning, and to spend time investigating what would be required before estimating any task that we couldn't do that with.  While there was no resistance to this, there was no formal process for doing so and we routinely skipped this during planning meetings, where everyone was on the linbe.
+One of our engineers has been advocating for time to do a verbal "sketch implementation" of each task, talking through what we'd change about each part of our system to achieve the goal, and come up with a rough plan before beginning, and to spend time investigating what would be required before estimating any task that we couldn't do that with.  While there was no resistance to this, there was no formal process for doing so and we routinely skipped this during planning meetings, where everyone was on the line.
 
-Another company one of our engineers worked at uses a simplified system, fully admitting that task descriptions often have no strict relationship to hours worked. We estimated on a three point scale:
+Another company one of our engineers worked at uses a simplified system, fully admitting that task descriptions often have no strict relationship to hours worked. They estimated on a three point scale:
 
 - 1 point if the task can be completely verbalized in detail, how it will be performed known exactly
 - 2 points if the task can be verbalized grossly, noting which systems will be involved and roughtly what each will have to accommodate
 - 3 points if the implementation could not be verbalized
 
-What we discovered there was that all 3 point tasks needed refinement of their specification, and sub-tasks that can be performed first or independently separated, and then the remainder reworked until it could be estimated. We routinely found that inside each 3 point task were multiple other 2 and 3 point tasks, and that it was too large to successfully plan as it was written. Breaking them up gave vastly better planning information, and got the team agreeing on how these requirements would be met.
+What they discovered there was that all 3 point tasks needed refinement of their specification, and sub-tasks that can be performed first or independently separated, and then the remainder reworked until it could be estimated. We routinely found that inside each 3 point task were multiple other 2 and 3 point tasks, and that it was too large to successfully plan as it was written. Breaking them up gave vastly better planning information, and got the team agreeing on how these requirements would be met.
 
 We are adopting a hybrid of the Scrum and 3-point systems at The Grommet.
 
@@ -41,7 +41,7 @@ For each task, we rate it on four factors:
 
 All of these we estimate using unitless numbers, trying to relate them to similarly rated tasks in the backlog and previous work. We sum them, and then round up to the nearest fibonacci number.
 
-At the moment we're not rating bug tickets, but I think this schema would work better for bug tickets (with extra points for uncertainty handling some of the uncertain nature of bug investigation)
+At the moment we're not rating bug tickets, but this schema should work better for bug tickets (with extra points for uncertainty handling some of the uncertain nature of bug investigation)
 
 This has had several interesting effects in our team.
 
