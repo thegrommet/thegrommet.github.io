@@ -1,5 +1,5 @@
 # Gems
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # --- General options --- #
 
